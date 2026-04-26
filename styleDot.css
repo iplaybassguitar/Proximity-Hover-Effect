@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(57, 55, 55);
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 10px);
+    grid-auto-rows: 10px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.dot {
+    width: 3px;
+    height: 3px;
+    background-color: #313131;
+    border-radius: 50%;
+    margin: auto;
+    transition: background-color 0.2s ease-out;
+}
