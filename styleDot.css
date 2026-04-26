@@ -19,5 +19,5 @@ html, body {
     background-color: #313131;
     border-radius: 50%;
     margin: auto;
-    transition: background-color 0.2s ease-out;
+    transition: background-color 0.05s ease-out;
 }
