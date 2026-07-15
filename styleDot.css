@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     overflow: hidden;
     background-color: rgb(57, 55, 55);
+    filter : blur(2px);
 }
 
 #grid-container {
@@ -11,7 +12,6 @@ html, body {
     grid-auto-rows: 10px;
     width: 100vw;
     height: 100vh;
-    filter : blur(2px);
 }
 
 .dot {
